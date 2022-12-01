@@ -1,0 +1,794 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav img{
+    width: 129px;
+    height: 64.5px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: -0.39%;
+    bottom: -0.39%;
+}
+nav h2{
+    position: absolute;
+    height: 41px;
+    left: 107.77px;
+    right: -0.37%;
+    width: 163px;
+    top: 7.375px;
+    border-radius: nullpx;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 41px;
+    color: #000000; 
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+    height: 20px;
+    width: 95px;
+    left: 170%;
+    top: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #000000;
+    font-family: 'Raleway';
+    font-weight: 800;
+}
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 4px;
+    background: #4BA87D;
+    position: absolute;
+    top: 16px;
+    left: 0px;
+}
+
+nav ul li a:hover::after{
+    width: 95%;
+    transition: ease-in 0.5s;
+}
+nav button{
+    position: absolute;
+    width: 168px;
+    height: 41px;
+    right: 30px;
+    top: 9px;
+    background: #4BA87D;
+    border: none;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 1.27px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.hero{
+    border-radius: 0px;
+    position: absolute;
+    width: 1088px;
+    height: 383px;
+    left: calc(50% - 1088px/2);
+    top: 150px;
+}
+.herophoto{
+    position: absolute;
+    width: 680px;
+    height: 383px;
+    right: 0px;
+    top: 0px;
+
+}
+.photohere{
+    position: absolute;
+    width: 680px;
+    height: 383px;
+    left: 0px;
+    top: 0px;
+    filter: drop-shadow(0px 3px 16px rgba(0, 0, 0, 0.160784));
+    
+}
+.photohere img{
+    position: absolute;
+    width: 680px;
+    height: 383px;
+    left: 60px;
+    top: 0px;
+
+}
+.heroleft{
+    position: absolute;
+    width: 489px;
+    height: 317px;
+    left: 0px;
+    top: 22px;
+    
+}
+.heroleft h1{
+    font-size: 59px;
+    font-weight: 900;
+    line-height: 71px;
+    letter-spacing: 0px;
+    text-align: left;
+    position: absolute;
+    width: 489px;
+    height: 142px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    color: #000000;
+}
+.heroleft p{
+    position: absolute;
+    width: 446px;
+    height: 52px;
+    left: 0px;
+    top: 165px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 26px;
+    color: #000000;
+}
+.getdemobtnoff{
+    position: absolute;
+    width: 200px;
+    height: 65px;
+    left: 245px;
+    top: 252px;
+}
+.getdemobtnoff button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 65px;
+    left: calc(50% - 200px/2);
+    top: 0px;
+    background: #FFFFFF;
+    border: 3px solid #4BA87D;
+    cursor: pointer;
+}
+.getdemobtnoff button a{
+    position: absolute;
+    height: 25px;
+    left: 14.5%;
+    right: 13.5%;
+    top: calc(50% - 25px/2 - 1px);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 2.1px;
+    color: #4BA87D;
+}
+.trynowoff{
+    position: absolute;
+    width: 200px;
+    height: 65px;
+    left: 0px;
+    top: 252px;
+}
+.trynowoff button{
+    position: absolute;
+    width: 200px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    background: #4BA87D;
+    border: none;
+    cursor: pointer;
+}
+.trynowoff button a{
+    position: absolute;
+    height: 25px;
+    left: 24%;
+    right: 23.5%;
+    top: calc(50% - 25px/2 - 1px);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1.05px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/********************************* Video sections *********************/
+.videoimg{
+position: absolute;
+
+right: 0%;
+top: -48.54px;
+background-image: url('videoimg.png');
+width: 944px;
+height: 531px;
+left: calc(50% - 944px/2);
+filter: drop-shadow(0px 3px 16px rgba(0, 0, 0, 0.160784));
+}
+.video{
+    position: absolute;
+    width: 944px;
+    height: 531px;
+    left: calc(50% - 944px/2);
+    top: 800px;
+}
+.video h1{
+    position: absolute;
+    width: 656px;
+    height: 80px;
+    left: calc(50% - 656px/2 + 1px);
+    top: 163px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 80px;
+    color: #ffffff;
+}
+.video button{
+    position: absolute;
+    width: 200px;
+    height: 65px;
+    left: calc(50% - 200px/2);
+    top: 270px;
+    background: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+.video button a{
+    position: absolute;
+    width: 136px;
+    height: 25px;
+    left: calc(50% - 136px/2);
+    top: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1.05px;
+    color: #4BA87D;
+}
+
+
+/********************************* SECTION 3 *********************/
+
+.slantbackground{
+    position: absolute;
+    width: 1250px;
+    height: 633px;
+    left: 0px;
+    right: 358.69px;
+    top: 1355px;
+    background: #CAEAC7;
+}
+.sec3{
+    position: absolute;
+    width: 1098px;
+    height: 533px;
+    left: calc(50% - 1098px/2 + 5px);
+    top: 1400px;
+   
+}
+.thumb1{
+    position: absolute;
+    width: 320px;
+    height: 449px;
+    left: calc(50% - 320px/2 - 389px);
+    top: 0px;
+}
+.whitebox{
+    position: absolute;
+    width: 320px;
+    height: 196px;
+    left: 0px;
+    top: 253px;
+    background: #ffffff;
+}
+.whitebox p{
+    position: absolute;
+    width: 251px;
+    height: 120px;
+    left: 30px;
+    top: 50px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
+.whitebox h6{
+    position: absolute;
+    width: 251px;
+    height: 28px;
+    left: 30px;
+    top: 155px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4BA87D;
+}
+.photosection{
+    position: absolute;
+    width: 320px;
+    height: 420px;
+    left: 0px;
+    top: 0px;
+    filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.160784));
+}
+.photosection img{
+    position: absolute;
+    width: 320px;
+    height: 280px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+}
+.thumb2{
+    position: absolute;
+    width: 320px;
+    height: 445px;
+    left: calc(50% - 320px/2 - 22px);
+    top: 88px;
+}
+.sec3txt{
+    position: absolute;
+    width: 365px;
+    height: 324px;
+    left: calc(50% - 365px/2 + 366.5px);
+    top: 138px;
+}
+.sec3txt h2{
+    position: absolute;
+    width: 365px;
+    height: 144px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 48px;
+    color: #000000;
+}
+.sec3txt p{
+    position: absolute;
+    width: 322px;
+    height: 156px;
+    left: 1px;
+    top: 168px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 26px;
+    color: #000000;
+}
+
+/********************************* SECTION 4 *********************/
+.sec4{
+    position: absolute;
+    width: 1089px;
+    height: 530px;
+    left: calc(50% - 1089px/2 - 1.5px);
+    top: 2100px;
+}
+.casestudy1{
+    position: absolute;
+    width: 342px;
+    height: 239px;
+    left: calc(50% - 342px/2 - 373.5px);
+    top: 0px;
+    background: linear-gradient(0deg, #000000 -32.5%, rgba(84, 84, 84, 0.0001) 67.78%),url('image3.png');   
+}
+.casestudy1 h4{
+    position: absolute;
+    width: 266px;
+    height: 34px;
+    left: 27px;
+    top: 198px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    color: #ffffff;
+}
+.casestudy1 h1{
+    position: absolute;
+    width: 220px;
+    height: 45px;
+    left: 27px;
+    top: 153px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 40px;
+    color: #ffffff;
+}
+.casestudy2{
+    position: absolute;
+    width: 342px;
+    height: 239px;
+    left: calc(50% - 342px/2 + 0.5px);
+    top: 0px;
+    background: linear-gradient(0deg, #000000 -32.5%, rgba(84, 84, 84, 0.0001) 67.78%),url('image4.png'); 
+}
+.casestudy2 h4{
+    position: absolute;
+    width: 266px;
+    height: 34px;
+    left: 27px;
+    top: 198px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.casestudy2 h1{
+    position: absolute;
+    width: 220px;
+    height: 45px;
+    left: 27px;
+    top: 153px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 40px;
+    color: #FFFFFF;
+    }
+.casestudy3{
+    position: absolute;
+    width: 341px;
+    height: 239px;
+    left: calc(50% - 341px/2 + 374px);
+    top: 0px;
+    background: linear-gradient(0deg, #000000 -32.5%, rgba(84, 84, 84, 0.0001) 67.78%),url('image5.png'); 
+}
+.casestudy3 h4{
+    position: absolute;
+    width: 266px;
+    height: 34px;
+    left: 25px;
+    top: 198px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.casestudy3 h1{
+    position: absolute;
+    width: 220px;
+    height: 45px;
+    left: 25px;
+    top: 153px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.sec4txt h1{
+    position: absolute;
+    width: 904px;
+    height: 126px;
+    left: calc(50% - 904px/2 + 1.5px);
+    top: 279px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+}
+.input{
+    position: absolute;
+    width: 668px;
+    height: 110px;
+    left: calc(50% - 668px/2 + 1.5px);
+    top: 420px;
+}
+.input button{
+    position: absolute;
+    width: 221px;
+    height: 65px;
+    left: 447px;
+    top: 0px;
+    background: #4BA87D;
+    border: none;
+}
+.input button h6{
+    position: absolute;
+    width: 162px;
+    height: 25px;
+    left: 27px;
+    top: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1.05px;
+    color: #ffffff;
+}
+.input input{
+    box-sizing: border-box;
+    position: absolute;
+    width: 420px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #9F9F9F;
+    border-radius: 5px;
+}
+.input p{
+    position: absolute;
+    width: 254px;
+    height: 25px;
+    left: 25px;
+    top: 85px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 1.05px;
+    color: #4BA87D;
+}
+
+/********************************* SECTION 5 *********************/
+.sec5{
+    position: absolute;
+    width: 944px;
+    height: 211px;
+    left: calc(50% - 944px/2);
+    top: 2767px;
+}
+.sec5 h1{
+    position: absolute;
+    width: 944px;
+    height: 124px;
+    left: calc(50% - 944px/2);
+    top: 0px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+}
+.logos{
+    position: absolute;
+    width: 926px;
+    height: 48px;
+    left: calc(50% - 926px/2);
+    top: 163px;
+}
+#logo1{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 160px;
+    height: 70px;
+}
+#logo2{
+    position: absolute;
+    left: 22%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 140px;
+    height: 50px;
+}
+#logo3{
+    position: absolute;
+    left: 42%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 140px;
+    height: 50px;
+}
+#logo4{
+    position: absolute;
+    left: 63%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 140px;
+    height: 50px;
+}
+#logo5{
+    position: absolute;
+    left: 90%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 140px;
+    height: 50px;
+}
+/*********************************Get started section*********************/
+
+.getstarted{
+    position: absolute;
+    height: 300px;
+    left: 0px;
+    right: 0px;
+    top: 3124px;
+    background-color: #4BA87D;
+}
+.getstarted h1{
+    position: absolute;
+    width: 944px;
+    height: 124px;
+    left: calc(50% - 944px/2);
+    top: 82px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.getstarted button{
+    position: absolute;
+    width: 200px;
+    height: 65px;
+    left: calc(50% - 200px/2);
+    bottom: 30px;
+    border: none;
+    background: #FFFFFF;
+}
+.getstarted button a{
+    position: absolute;
+    height: 25px;
+    left: 16.5%;
+    right: 15%;
+    top: calc(50% - 25px/2 - 1px);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1.05px;
+    color: #4BA87D;
+}
+
+/*********************************Footer section*********************/
+.footer{
+    position: absolute;
+    width: 1350px;
+    height: 433px;
+    left: calc(50% - 1440px/2);
+    top: 3490px;
+}
+.ninjamaillogo{
+    position: absolute;
+    width: 197.39px;
+    height: 60.23px;
+    left: 228px;
+    top: 73px;
+}
+.ninjamaillogo img{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: -1.11%;
+    bottom: -1.11%;
+    width: 120px;
+    height: 60px;
+}
+.ninjamaillogo h2{
+    position: absolute;
+    width: 121px;
+    height: 31px;
+    left: 90px;
+    top: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+}
+.footerlinks{
+    position: absolute;
+    width: 563px;
+    height: 199.86px;
+    right: 165px;
+    top: 79px;
+}
+.footerlinks ul{
+    list-style: none;
+}
+.footerlinks ul li{
+    font-size: 19px;
+    font-weight: 100;
+    line-height: 22px;
+    padding: 1%;
+}
+#two{
+    padding-left: 25%;
+    margin-top: -23%;
+}
+#three{
+    padding-left: 55%;
+    margin-top: -32%;
+}
+#four{
+    padding-left: 80%;
+    margin-top: -24%;
+}
+.dividerline{
+    position: absolute;
+    height: 2px;
+    left: 276px;
+    right: 176px;
+    top: 335px;
+    background: #DBDBDB;
+}
+.copyrights p{
+    position: absolute;
+    width: 555px;
+    height: 18px;
+    left: 257px;
+    top: 376px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+.copyrights ul{
+    position: absolute;
+    width: 273px;
+    height: 18px;
+    right: 257px;
+    top: 376px;
+    display: flex;
+}
+.copyrights ul li{
+    list-style: none;
+    padding-left: 2%;
+}
